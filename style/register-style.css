@@ -1,0 +1,109 @@
+body
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../image/banner.jpg); 
+	background-position: : fixed;
+	background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap
+{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 99;
+}
+
+p.form-title
+{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+
+form
+{
+    width: 320px;
+    margin: 0 auto;
+}
+
+form.login input[type="text"], form.login input[type="password"]
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0; border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+form.login input[type="submit"]
+{
+    width: 60%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align:center;
+	margin-left: 20%; margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 18px;
+    background: #00AD7C; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #00AD7C, #B5FF7D); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #00AD7C, #B5FF7D); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #00AD7C, #B5FF7D); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #00AD7C, #B5FF7D); /* Standard syntax (must be last) */
+}
+}
+
+form.login input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.login .remember-forgot
+{	
+	float: left;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+form.login .forgot-pass-content
+{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form.login label, form.login a
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login .sign-up-alert {
+	text-align: center;
+}
+
+form.login a
+{
+    transition: color 0.5s ease;
+}
+
+form.login a:hover
+{
+    color: #2ecc71;
+}
+
+
